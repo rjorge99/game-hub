@@ -1,4 +1,7 @@
+import { useEffect, useState } from 'react';
 import axios from 'axios';
+
+import apiClient from '../services/apiClient';
 
 export default axios.create({
     baseURL: 'https://api.rawg.io/api',
